@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_chat"
+    tools:context=".Activities.chat_activity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="307dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/typeMessage"
+                android:layout_width="224dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:hint="Type Your Message"
+                android:inputType="textPersonName"
+                android:paddingLeft="20dp"
+                android:textAlignment="viewStart"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:padding="12dp"
+                app:srcCompat="@drawable/attachment" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="4dp"
+                android:padding="5dp"
+                app:srcCompat="@drawable/camera" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/sendButtonIm"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="2dp"
+        android:background="@drawable/green_bg"
+        android:padding="4dp"
+        android:paddingStart="4dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView"
+        app:layout_constraintStart_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="@+id/cardView"
+        app:srcCompat="@drawable/send" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
