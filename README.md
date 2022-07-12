@@ -21,7 +21,8 @@
 
 **2. Verify Your Number**
 <br/><br/>
-![verifyyournumber](https://user-images.githubusercontent.com/97940574/178467910-b4788221-0312-4191-8a34-2c1518ba5397.png)
+![verifyyournumberblurred](https://user-images.githubusercontent.com/97940574/178472458-479ad13b-9db2-419d-8765-e3b91088fb17.png)
+
 <br/>
 
 **3. Setup your Profile**
