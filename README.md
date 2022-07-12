@@ -26,3 +26,6 @@ With varta you can chat with anyone for free!
 <br/>
 
 ![display](https://user-images.githubusercontent.com/97940574/178468620-70bd4012-1ab4-461e-beaf-f9ea2d52f25f.png)
+
+## Features
+- Free text messages (Features of sending image, video and other files to implemented soon)
