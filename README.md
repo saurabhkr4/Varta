@@ -1,6 +1,6 @@
 # Varta
 
-With varta you can chat with anyone for free! 
+**With varta you can chat with anyone for free!** 
 
 ![Varta_gif](https://user-images.githubusercontent.com/97940574/178461798-cb69a78b-6930-4c48-b777-7e816f98fa95.gif)
 
@@ -28,7 +28,12 @@ With varta you can chat with anyone for free!
 ![display](https://user-images.githubusercontent.com/97940574/178468620-70bd4012-1ab4-461e-beaf-f9ea2d52f25f.png)
 
 ## Features
+- Easy login, no password or pin required
 - Free text messages 
+- React to the messages
+- Choose your profile picture and name
+
 
 ## Improvements
 - Feature of sending image, video and other files to implemented soon
+- Status and Calling features are yet to be added
