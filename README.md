@@ -31,6 +31,7 @@
 - Easy login, no password or pin required
 - Free text messages 
 - React to the messages
+- Last message time on the home screen on the right hand side
 - Choose your profile picture and name
 
 
